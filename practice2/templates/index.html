@@ -1,0 +1,23 @@
+{% extends "base_app.html" %}
+
+{%block headers%}
+{% for key in students[0].keys() %}
+<th>{{key}}</th>
+{% endfor %}
+{% endblock headers %}
+
+{% block t_data %}
+{%for student in students %}  
+<tr>
+                    
+    <td>{{  student.id  }}</td>
+    <td>{{  student.name  }}</td>
+    <td>{{  student.age  }}</td>
+    <td>{{student.course}}</td>
+    <td>{{  student.year  }}</td>
+    <td>{{  student.email  }}</td>
+    <td>{{  student .gpa }}</td>
+
+</tr>
+{% endfor %}
+{% endblock t_data%}
