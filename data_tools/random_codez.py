@@ -17,7 +17,20 @@ def quicksort(arr,low,high):
         quicksort(arr,piv+1,high)
 
 nums = [5, 2, 9, 1, 9, 7]
+same=[9,9,9,9,9,9,9,9,3]
 
-quicksort(nums, 0, len(nums) - 1)
 
-print(nums)
+
+
+def chooser(arr):
+    quicksort(arr, 0, len(arr) - 1)
+    i=len(arr)-2
+    j=i-1
+    while arr[i]==arr[j]:
+        if arr[0]==arr[len(arr)-1]:
+            return None
+        i-=1
+        j-=1
+    return arr[j]
+
+print(chooser(same))
