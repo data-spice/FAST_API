@@ -1,11 +1,11 @@
-def maxnum(arr):
-    max_no=0
-    for i in range(len(arr)):
-        if arr[i]>max_no:
-            max_no=arr[i]
+def count_even(arr):
+    counter=0
+    for i in range(0, len(arr)):
+        if arr[i]%2==0:
+            counter+=1
+    return counter
 
-    return max_no
 
-nums = [4, 9, 2, 15, 7,45]
+nums = [1, 2, 4, 7, 10, 13, 18]
 
-print(maxnum(nums))
+print(count_even(nums))
