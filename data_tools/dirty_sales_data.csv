@@ -1,0 +1,21 @@
+Order_ID,Customer_Name,Age,Gender,Country,Product,Category,Quantity,Price,Discount,Order_Date,Payment_Method,Email
+1001,John Doe,25,Male,Kenya,Laptop,Electronics,1,85000,5000,2026-01-12,Card,john@gmail.com
+1002,Jane Smith, ,Female,Uganda,Phone,Electronics,2,45000,,2026/02/15,Mpesa,jane@gmail.com
+1003,Brian Kim,31,Male,Kenya,Laptop,Electronics,1,85000,5000,15-03-2026,Cash,briankim@gmail
+1004,Alice Brown,-5,Female,Tanzania,Headphones,Electronics,3,5500,500,2026-03-20,Card,alice@gmail.com
+1005,Victor Mwangi,21,Male,Kenya,,Electronics,1,75000,2500,2026-03-25,Card,vic@gmail.com
+1006,Grace Wanjiku,27,Female,Kenya,Keyboard,Electronics,0,3500,200,2026-04-01,Cash,grace@gmail.com
+1007,Peter Ouma,42,Male,Kenya,Mouse,Electronics,2,-1200,100,2026-04-05,Card,peter@gmail.com
+1008,Lucy Akinyi,30,Female,,Monitor,Electronics,1,25000,1000,2026-04-10,Mpesa,lucy@gmail.com
+1009,John Doe,25,Male,Kenya,Laptop,Electronics,1,85000,5000,2026-01-12,Card,john@gmail.com
+1010,Faith K.,200,Female,Kenya,Desk,Furniture,1,15000,0,2026-05-01,Card,faith@gmail.com
+1011,David Njoroge,35,Male,Kenya,Chair,Furniture,2,8500,300,2026-05-07,Card,david@gmail.com
+1012,,29,Male,Kenya,Printer,Electronics,1,22000,1000,2026-05-09,Cash,unknown@gmail.com
+1013,Mary Atieno,26,Female,Kenya,Laptop,Electronics,five,87000,5000,2026-05-15,Card,mary@gmail.com
+1014,James Kariuki,32,Male,Kenya,Laptop,Electronics,2,87000,5000,2026-13-01,Card,james@gmail.com
+1015,Sarah Ali,24,Female,Kenya,Mouse,Electronics,1,1200,100,2026-06-02,Bitcoin,sarah@gmail.com
+1016,Kevin Kiptoo,28,Male,Kenya,Desk,Furniture,1,15000,0,2026-06-05,CARD,kevin@gmail.com
+1017,Nancy Achieng,27,Female,Uganda,Chair,Furniture,2,8500,300,2026-06-06,cash,nancy@gmail.com
+1018,John Doe,25,Male,Kenya,Laptop,Electronics,1,85000,5000,2026-01-12,Card,john@gmail.com
+1019,George Maina,31,Male,Kenya,Monitor,Electronics,,25000,1000,2026-06-12,Card,george@gmail.com
+1020,Emily Rose,29,Female,Tanzania,Keyboard,Electronics,2,3500,,2026-06-15,Mpesa,emily@gmail.com
