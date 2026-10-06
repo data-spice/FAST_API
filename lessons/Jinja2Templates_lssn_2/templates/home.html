@@ -2,7 +2,11 @@
 <html>
     <head>
         <title>
-            FastApi Blog
+            {% if title %}
+                FastApi Blog - {{title}}
+            {% else %}
+             FastApi Blog
+            {%end if%}
         </title>
     </head>
     <body>
